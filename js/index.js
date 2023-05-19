@@ -52,7 +52,12 @@ if (i % 2 !== 0) {
 // Output the average to the console with the string -> "The Average is"
 
 let marks = [23, 45, 67, 55, 80, 90, 45, 60, 56, 30, 31];
+let totalMarks= 23 + 45 + 67 + 55 + 80 + 90 + 45 + 60 + 56 + 30 + 31
+let meanValue= 52.9
 
+if (totalMarks/11){
+    console.log( "The Average is:" + meanValue)
+}
 
  // Use the following data 
 let ageOne = 23;
@@ -65,12 +70,19 @@ let userTwo = "Jacob";
 // If True, console log -> "User and Age Match"
 // If False, console log -> "User and Age Do Not Match"
 
-
-
+if(ageOne>= 18){
+    console.log( "User and Age Match")
+} else{
+    console.log("User and Age Do Not Match")
+}
 // Write a Script that checks to see if userTwo name is Peter OR that this user is Younger than 18
 // If True, console log -> "User is Younger than 18 or is Peter"
 // If False, console log -> "User is Younger than 18 and is Not Peter"
 
 
-
+if(ageTwo<18){
+    console.log( "User is Younger than 18 or is Peter")
+} else{
+    console.log("User is Younger than 18 and is Not Peter")
+}
 
